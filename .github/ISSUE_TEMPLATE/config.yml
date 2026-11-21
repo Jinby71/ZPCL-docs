@@ -1,0 +1,14 @@
+blank_issues_enabled: false
+contact_links:
+  - name: 安全问题请私下报告
+    url: https://github.com/Jinby71/ZPCL-docs/security/advisories/new
+    about: 请勿在公开 Issue 中披露漏洞细节，详见 SECURITY.md
+  - name: 如何参与贡献
+    url: https://github.com/Jinby71/ZPCL-docs/blob/main/CONTRIBUTING.md
+    about: 提交文档改动前请先阅读贡献指南
+  - name: ZPCL Launcher 官方仓库
+    url: https://github.com/zuanxu53-hub/ZPCL-Launcher
+    about: 启动器本身的功能问题、版本与源码请到官方仓库反馈
+  - name: VitePress 官方文档
+    url: https://vitepress.dev/
+    about: 关于语法与配置的用法问题，可先查阅官方文档

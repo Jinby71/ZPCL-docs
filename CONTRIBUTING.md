@@ -74,7 +74,7 @@ git --version
 - `README.md`、`CHANGELOG.md`、`SECURITY.md` 已通过 `srcExclude` 排除，不会生成站点页面。文档页中不应链接这些文件，否则构建会报 dead link。`CONTRIBUTING.md` 本身就是站点页面，路径为 `/CONTRIBUTING`
 - 不要提交 `node_modules/`、`.vitepress/dist/`、`.vitepress/cache/`，这些已在 `.gitignore` 中排除
 
-本站文档与站点代码按 [MIT License](https://github.com/Jinby71/ZPCL-docs/blob/master/LICENSE) 发布。提交至本仓库的内容，视为同意以该许可发布。文档中转引的第三方文字、图片与代码示例仍归原作者，需确认其许可允许转载后再提交。
+本站文档与站点代码按 [MIT License](https://github.com/Jinby71/ZPCL-docs/blob/main/LICENSE) 发布。提交至本仓库的内容，视为同意以该许可发布。文档中转引的第三方文字、图片与代码示例仍归原作者，需确认其许可允许转载后再提交。
 
 ## 写作规范
 
@@ -106,7 +106,7 @@ npm run docs:build
 
 ## 提交 PR
 
-1. 从 `master` 创建分支，不要直接修改主分支：
+1. 从 `main` 创建分支，不要直接修改主分支：
 
    ```bash
    git checkout -b docs/我的改动

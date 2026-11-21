@@ -51,7 +51,7 @@ PCL2 相关图标这类素材，版本、来源与再分发授权仍需逐项核
 
 | 对象 | 许可 | 说明 |
 | --- | --- | --- |
-| 本站文档文字与站点代码 | MIT | 由文档仓库维护，许可全文见 [LICENSE](https://github.com/Jinby71/ZPCL-docs/blob/master/LICENSE) |
+| 本站文档文字与站点代码 | MIT | 由文档仓库维护，许可全文见 [LICENSE](https://github.com/Jinby71/ZPCL-docs/blob/main/LICENSE) |
 | ZPCL Launcher 程序 | GNU GPLv3 | 在适用法律允许的范围内按现状提供，不附带担保 |
 
 上表仅涉及本站与程序本身。ZPCL Launcher 使用的第三方组件与素材不属于本站许可范围，其权利人与许可条款见[第三方组件](/third-party)。

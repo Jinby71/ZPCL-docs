@@ -1,0 +1,50 @@
+name: ZPCL 文档问题报告
+description: 反馈 ZPCL Launcher 文档的内容错误、链接失效、构建失败或页面显示异常
+title: "[Bug]: "
+labels: [bug]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        感谢反馈！把下面的信息填清楚，可以帮我们更快定位问题。
+  - type: input
+    id: page
+    attributes:
+      label: 出问题的页面
+      description: 线上 URL 或仓库里对应的 .md 文件路径
+      placeholder: https://jinby71.github.io/ZPCL-docs/...
+    validations:
+      required: true
+  - type: textarea
+    id: description
+    attributes:
+      label: 问题描述
+      description: 期望看到什么，实际看到什么？
+    validations:
+      required: true
+  - type: textarea
+    id: steps
+    attributes:
+      label: 复现步骤
+      description: 如果是显示或构建问题，请写出复现步骤
+      placeholder: |
+        1. 打开 ...
+        2. 点击 ...
+        3. 出现 ...
+    validations:
+      required: false
+  - type: input
+    id: environment
+    attributes:
+      label: 环境信息
+      description: 浏览器 / 操作系统 / Node.js 版本（如适用）
+      placeholder: Chrome 131 / Windows 11 / Node 22.22.2
+    validations:
+      required: false
+  - type: checkboxes
+    id: checklist
+    attributes:
+      label: 确认
+      options:
+        - label: 我已搜索过现有 Issue，确认没有重复
+          required: true

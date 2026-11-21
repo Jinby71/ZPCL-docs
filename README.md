@@ -6,7 +6,7 @@
 
 ZPCL Launcher 的中文文档站，基于 [VitePress](https://vitepress.dev) 构建，由 Cloudflare Pages 连接本仓库部署
 
-![CI](https://github.com/Jinby71/ZPCL-docs/actions/workflows/ci.yml/badge.svg?branch=master)
+![CI](https://github.com/Jinby71/ZPCL-docs/actions/workflows/ci.yml/badge.svg?branch=main)
 
 ![License: MIT](https://img.shields.io/badge/License-MIT-blue.svg)
 
@@ -131,7 +131,7 @@ npm run docs:dev
 
 ## 部署
 
-站点由 Cloudflare Pages 连接本仓库构建。推送 `master` 后自动部署，Pull Request 生成预览地址。
+站点由 Cloudflare Pages 连接本仓库构建。推送 `main` 后自动部署，Pull Request 生成预览地址。
 
 | 配置项 | 值 |
 | --- | --- |

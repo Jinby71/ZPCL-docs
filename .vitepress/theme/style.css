@@ -1,0 +1,53 @@
+/* 导航栏图标略大于默认的 24px */
+:root {
+  --vp-nav-logo-height: 40px;
+}
+
+/* 贡献者头像：圆形、竖排、逐个排列 */
+.contributors {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 28px 24px;
+  margin: 28px 0 12px;
+  min-height: 112px;
+}
+
+.contributors .contributor {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 10px;
+  width: 108px;
+  text-align: center;
+  text-decoration: none;
+  color: var(--vp-c-text-1);
+  font-size: 14px;
+  line-height: 1.4;
+}
+
+.contributors .contributor img {
+  width: 80px;
+  height: 80px;
+  margin: 0;
+  border-radius: 50%;
+  border: 2px solid var(--vp-c-divider);
+  object-fit: cover;
+  background: var(--vp-c-bg-soft);
+  transition: border-color 0.25s;
+}
+
+.contributors .contributor:hover img {
+  border-color: var(--vp-c-brand-1);
+}
+
+.contributors .contributor:hover span {
+  color: var(--vp-c-brand-1);
+}
+
+/* 加载与失败提示 */
+.contributors-note {
+  flex-basis: 100%;
+  margin: 0;
+  color: var(--vp-c-text-2);
+  font-size: 13px;
+}
