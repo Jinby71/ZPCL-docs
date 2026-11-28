@@ -2,7 +2,7 @@
 
 ZPCL Launcher 是 Android 平台上的 Minecraft Java 版启动器。启动核心来自 [Zalith Launcher 2](https://github.com/ZalithLauncher/ZalithLauncher2) 与 [PojavLauncher](https://github.com/PojavLauncherTeam/PojavLauncher)，界面按 [PCL2](https://github.com/Meloong-Git/PCL) 的分栏结构实现，使用 Jetpack Compose 编写。
 
-当前版本为 1.5.5（versionCode `200088`），上游基线是 Zalith Launcher 2 2.8.1。本版本属非官方修改版，与上游官方无隶属关系。
+当前版本为 1.5.6（versionCode `200105`），上游基线是 Zalith Launcher 2 2.8.1。本版本属非官方修改版，与上游官方无隶属关系。
 
 本页内容整理自官方仓库的 README、NOTICE、插件指南与[官网](https://zpcl.fun)。安装包、源码与问题反馈均以官方仓库为准。
 

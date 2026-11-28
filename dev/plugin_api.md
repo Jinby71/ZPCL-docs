@@ -1,6 +1,6 @@
 # 插件 API
 
-协议版本为 1.4.6，自启动器 1.4.0 起逐步开放，当前 1.5.5 沿用该协议。协议原文见官方仓库的 [docs/PLUGIN_GUIDE.md](https://github.com/zuanxu53-hub/ZPCL-Launcher/blob/main/docs/PLUGIN_GUIDE.md)。
+协议版本为 1.4.6，自启动器 1.4.0 起逐步开放，当前 1.5.6 沿用该协议。协议原文见官方仓库的 [docs/PLUGIN_GUIDE.md](https://github.com/zuanxu53-hub/ZPCL-Launcher/blob/main/docs/PLUGIN_GUIDE.md)。
 
 插件是一个普通 APK，不是代码模块。启动器不加载插件的 dex，也不与插件共享进程。启动器只读取 APK 内 `assets/zplugin/` 下的配置，再用原生控件渲染页面。
 
